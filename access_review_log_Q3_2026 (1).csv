@@ -1,0 +1,70 @@
+Quarter,Log_ID,Timestamp,Month,Review_Cycle,System_Application,User_ID,User_Name,Access_Role_Entitlement,Privilege_Level,Event_Type,Reviewer,Decision,Details,Ticket_ID,Status
+2026-Q3,LOG-0001,2026-07-01 09:00:00,2026-07,Monthly Privileged Review,All Systems,,,,,Review Campaign Started,Compliance Team,,Campaign launched; reviewers notified,,Completed
+2026-Q3,LOG-0002,2026-07-02 11:31:00,2026-07,Monthly Privileged Review,Splunk,jsmith,John Smith,power,Elevated,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0003,2026-07-02 12:31:00,2026-07,Monthly Privileged Review,Splunk,jsmith,John Smith,power,Elevated,Access Approved,Maria Lopez,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0004,2026-07-03 16:12:00,2026-07,Monthly Privileged Review,Salesforce,rpatel,Raj Patel,System Administrator,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0005,2026-07-03 19:12:00,2026-07,Monthly Privileged Review,Salesforce,rpatel,Raj Patel,System Administrator,Admin,Access Approved,David Chen,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0006,2026-07-04 21:32:00,2026-07,Monthly Privileged Review,GitHub Enterprise,rpatel,Raj Patel,Org Owner,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0007,2026-07-04 23:32:00,2026-07,Monthly Privileged Review,GitHub Enterprise,rpatel,Raj Patel,Org Owner,Admin,Access Approved,David Chen,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0008,2026-07-06 00:08:00,2026-07,Monthly Privileged Review,Workday,ebrown,Emily Brown,Payroll Admin,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0009,2026-07-06 01:08:00,2026-07,Monthly Privileged Review,Workday,ebrown,Emily Brown,Payroll Admin,Admin,Access Revoked,David Chen,Revoke,Admin rights not required for job function,ACR-1000,Completed
+2026-Q3,LOG-0010,2026-07-08 02:02:00,2026-07,Monthly Privileged Review,Salesforce,jsmith,John Smith,System Administrator,Admin,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0011,2026-07-08 05:02:00,2026-07,Monthly Privileged Review,Salesforce,jsmith,John Smith,System Administrator,Admin,Access Modified,Maria Lopez,Modify,Moved to just-in-time / PAM elevation,ACR-1001,Completed
+2026-Q3,LOG-0012,2026-07-09 05:15:00,2026-07,Monthly Privileged Review,AWS Console,scohen,Sarah Cohen,AdministratorAccess,Admin,Access Reviewed,Laura Bell,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0013,2026-07-09 07:15:00,2026-07,Monthly Privileged Review,AWS Console,scohen,Sarah Cohen,AdministratorAccess,Admin,Access Revoked,Laura Bell,Revoke,Admin rights not required for job function,ACR-1002,Completed
+2026-Q3,LOG-0014,2026-07-10 10:39:00,2026-07,Monthly Privileged Review,Salesforce,lwong,Li Wong,System Administrator,Admin,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0015,2026-07-10 16:39:00,2026-07,Monthly Privileged Review,Salesforce,lwong,Li Wong,System Administrator,Admin,Access Modified,Maria Lopez,Modify,Moved to just-in-time / PAM elevation,ACR-1003,Completed
+2026-Q3,LOG-0016,2026-07-11 21:19:00,2026-07,Monthly Privileged Review,Okta Admin,ebrown,Emily Brown,Super Admin,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0017,2026-07-11 23:19:00,2026-07,Monthly Privileged Review,Okta Admin,ebrown,Emily Brown,Super Admin,Admin,Access Revoked,David Chen,Revoke,Admin rights not required for job function,ACR-1004,Completed
+2026-Q3,LOG-0018,2026-07-14 01:24:00,2026-07,Monthly Privileged Review,Azure AD,cthomas,Chris Thomas,Global Administrator,Admin,Access Reviewed,Susan Park,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0019,2026-07-14 04:24:00,2026-07,Monthly Privileged Review,Azure AD,cthomas,Chris Thomas,Global Administrator,Admin,Access Revoked,Susan Park,Revoke,Dormant/unneeded access removed,ACR-1005,Completed
+2026-Q3,LOG-0020,2026-07-16 04:32:00,2026-07,Monthly Privileged Review,Okta Admin,mgarcia,Maria Garcia,Super Admin,Admin,Access Reviewed,Susan Park,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0021,2026-07-16 06:32:00,2026-07,Monthly Privileged Review,Okta Admin,mgarcia,Maria Garcia,Super Admin,Admin,Access Revoked,Susan Park,Revoke,Admin rights not required for job function,ACR-1006,Completed
+2026-Q3,LOG-0022,2026-07-13 09:00:00,2026-07,Monthly Privileged Review,All Systems,cthomas,Chris Thomas,,,Reminder Sent,Susan Park,,Review overdue; escalation reminder sent,,Completed
+2026-Q3,LOG-0023,2026-07-28 16:00:00,2026-07,Monthly Privileged Review,All Systems,,,,,Review Campaign Closed,Compliance Team,,Closed with 10 reviews,,Completed
+2026-Q3,LOG-0024,2026-08-01 09:00:00,2026-08,Monthly Privileged Review,All Systems,,,,,Review Campaign Started,Compliance Team,,Campaign launched; reviewers notified,,Completed
+2026-Q3,LOG-0025,2026-08-02 13:21:00,2026-08,Monthly Privileged Review,Splunk,bjohnson,Brian Johnson,power,Elevated,Access Reviewed,Kevin Ortiz,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0026,2026-08-02 16:21:00,2026-08,Monthly Privileged Review,Splunk,bjohnson,Brian Johnson,power,Elevated,Access Approved,Kevin Ortiz,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0027,2026-08-04 16:25:00,2026-08,Monthly Privileged Review,Splunk,ebrown,Emily Brown,power,Elevated,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0028,2026-08-04 17:25:00,2026-08,Monthly Privileged Review,Splunk,ebrown,Emily Brown,power,Elevated,Access Approved,David Chen,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0029,2026-08-05 22:05:00,2026-08,Monthly Privileged Review,Workday,svc_backup,Backup Service Account,Payroll Admin,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0030,2026-08-06 00:05:00,2026-08,Monthly Privileged Review,Workday,svc_backup,Backup Service Account,Payroll Admin,Admin,Access Revoked,David Chen,Revoke,Dormant/unneeded access removed,ACR-1007,Completed
+2026-Q3,LOG-0031,2026-08-08 02:44:00,2026-08,Monthly Privileged Review,Workday,ebrown,Emily Brown,Payroll Admin,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0032,2026-08-08 06:44:00,2026-08,Monthly Privileged Review,Workday,ebrown,Emily Brown,Payroll Admin,Admin,Access Revoked,David Chen,Revoke,Admin rights not required for job function,ACR-1008,Completed
+2026-Q3,LOG-0033,2026-08-09 11:14:00,2026-08,Monthly Privileged Review,SAP ERP,akhan,Aisha Khan,FI Approver,Elevated,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0034,2026-08-09 16:14:00,2026-08,Monthly Privileged Review,SAP ERP,akhan,Aisha Khan,FI Approver,Elevated,Access Approved,David Chen,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0035,2026-08-10 19:25:00,2026-08,Monthly Privileged Review,AWS Console,jsmith,John Smith,AdministratorAccess,Admin,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0036,2026-08-11 01:25:00,2026-08,Monthly Privileged Review,AWS Console,jsmith,John Smith,AdministratorAccess,Admin,Access Modified,Maria Lopez,Modify,Moved to just-in-time / PAM elevation,ACR-1009,Completed
+2026-Q3,LOG-0037,2026-08-12 05:40:00,2026-08,Monthly Privileged Review,Salesforce,tnguyen,Tran Nguyen,System Administrator,Admin,Access Reviewed,Laura Bell,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0038,2026-08-12 11:40:00,2026-08,Monthly Privileged Review,Salesforce,tnguyen,Tran Nguyen,System Administrator,Admin,Access Revoked,Laura Bell,Revoke,Admin rights not required for job function,ACR-1010,Completed
+2026-Q3,LOG-0039,2026-08-13 13:27:00,2026-08,Monthly Privileged Review,SAP ERP,rpatel,Raj Patel,FI Approver,Elevated,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0040,2026-08-13 19:27:00,2026-08,Monthly Privileged Review,SAP ERP,rpatel,Raj Patel,FI Approver,Elevated,Access Approved,David Chen,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0041,2026-08-14 23:23:00,2026-08,Monthly Privileged Review,Splunk,scohen,Sarah Cohen,power,Elevated,Access Reviewed,Laura Bell,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0042,2026-08-15 03:23:00,2026-08,Monthly Privileged Review,Splunk,scohen,Sarah Cohen,power,Elevated,Access Approved,Laura Bell,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0043,2026-08-16 06:26:00,2026-08,Monthly Privileged Review,AWS Console,dkim,Daniel Kim,AdministratorAccess,Admin,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0044,2026-08-16 07:26:00,2026-08,Monthly Privileged Review,AWS Console,dkim,Daniel Kim,AdministratorAccess,Admin,Access Modified,Maria Lopez,Modify,Moved to just-in-time / PAM elevation,ACR-1011,Completed
+2026-Q3,LOG-0045,2026-08-13 09:00:00,2026-08,Monthly Privileged Review,All Systems,dkim,Daniel Kim,,,Reminder Sent,Maria Lopez,,Review overdue; escalation reminder sent,,Completed
+2026-Q3,LOG-0046,2026-08-28 16:00:00,2026-08,Monthly Privileged Review,All Systems,,,,,Review Campaign Closed,Compliance Team,,Closed with 10 reviews,,Completed
+2026-Q3,LOG-0047,2026-09-01 09:00:00,2026-09,Q3 Quarterly Review,All Systems,,,,,Review Campaign Started,Compliance Team,,Campaign launched; reviewers notified,,Completed
+2026-Q3,LOG-0048,2026-09-03 11:42:00,2026-09,Q3 Quarterly Review,Azure AD,jsmith,John Smith,Global Administrator,Admin,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0049,2026-09-03 17:42:00,2026-09,Q3 Quarterly Review,Azure AD,jsmith,John Smith,Global Administrator,Admin,Access Approved,Maria Lopez,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0050,2026-09-04 21:44:00,2026-09,Q3 Quarterly Review,Azure AD,cthomas,Chris Thomas,Global Administrator,Admin,Access Reviewed,Susan Park,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0051,2026-09-04 22:44:00,2026-09,Q3 Quarterly Review,Azure AD,cthomas,Chris Thomas,Global Administrator,Admin,Access Revoked,Susan Park,Revoke,Dormant/unneeded access removed,ACR-1012,Completed
+2026-Q3,LOG-0052,2026-09-07 00:46:00,2026-09,Q3 Quarterly Review,Salesforce,tnguyen,Tran Nguyen,System Administrator,Admin,Access Reviewed,Laura Bell,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0053,2026-09-07 01:46:00,2026-09,Q3 Quarterly Review,Salesforce,tnguyen,Tran Nguyen,System Administrator,Admin,Access Revoked,Laura Bell,Revoke,Admin rights not required for job function,ACR-1013,Open
+2026-Q3,LOG-0054,2026-09-08 04:50:00,2026-09,Q3 Quarterly Review,GitHub Enterprise,mgarcia,Maria Garcia,Org Owner,Admin,Access Reviewed,Susan Park,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0055,2026-09-08 10:50:00,2026-09,Q3 Quarterly Review,GitHub Enterprise,mgarcia,Maria Garcia,Org Owner,Admin,Access Revoked,Susan Park,Revoke,Admin rights not required for job function,ACR-1014,Open
+2026-Q3,LOG-0056,2026-09-10 12:58:00,2026-09,Q3 Quarterly Review,Salesforce,lwong,Li Wong,System Administrator,Admin,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0057,2026-09-10 13:58:00,2026-09,Q3 Quarterly Review,Salesforce,lwong,Li Wong,System Administrator,Admin,Access Modified,Maria Lopez,Modify,Moved to just-in-time / PAM elevation,ACR-1015,In Progress
+2026-Q3,LOG-0058,2026-09-12 14:55:00,2026-09,Q3 Quarterly Review,SAP ERP,dkim,Daniel Kim,FI Approver,Elevated,Access Reviewed,Maria Lopez,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0059,2026-09-12 20:55:00,2026-09,Q3 Quarterly Review,SAP ERP,dkim,Daniel Kim,FI Approver,Elevated,Access Approved,Maria Lopez,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0060,2026-09-13 23:17:00,2026-09,Q3 Quarterly Review,Splunk,tnguyen,Tran Nguyen,power,Elevated,Access Reviewed,Laura Bell,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0061,2026-09-14 00:17:00,2026-09,Q3 Quarterly Review,Splunk,tnguyen,Tran Nguyen,power,Elevated,Access Approved,Laura Bell,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0062,2026-09-16 01:12:00,2026-09,Q3 Quarterly Review,Splunk,akhan,Aisha Khan,power,Elevated,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0063,2026-09-16 05:12:00,2026-09,Q3 Quarterly Review,Splunk,akhan,Aisha Khan,power,Elevated,Access Approved,David Chen,Approve,Access appropriate for current role,,Completed
+2026-Q3,LOG-0064,2026-09-17 08:48:00,2026-09,Q3 Quarterly Review,Salesforce,ebrown,Emily Brown,System Administrator,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0065,2026-09-17 09:48:00,2026-09,Q3 Quarterly Review,Salesforce,ebrown,Emily Brown,System Administrator,Admin,Access Revoked,David Chen,Revoke,Admin rights not required for job function,ACR-1016,Open
+2026-Q3,LOG-0066,2026-09-19 13:25:00,2026-09,Q3 Quarterly Review,AWS Console,ebrown,Emily Brown,AdministratorAccess,Admin,Access Reviewed,David Chen,,Entitlements reviewed by manager,,Completed
+2026-Q3,LOG-0067,2026-09-19 14:25:00,2026-09,Q3 Quarterly Review,AWS Console,ebrown,Emily Brown,AdministratorAccess,Admin,Access Revoked,David Chen,Revoke,Admin rights not required for job function,ACR-1017,Open
+2026-Q3,LOG-0068,2026-09-13 09:00:00,2026-09,Q3 Quarterly Review,All Systems,ebrown,Emily Brown,,,Reminder Sent,David Chen,,Review overdue; escalation reminder sent,,Completed
+2026-Q3,LOG-0069,2026-09-28 16:00:00,2026-09,Q3 Quarterly Review,All Systems,,,,,Review Campaign Closed,Compliance Team,,Closed with 10 reviews,,Completed
